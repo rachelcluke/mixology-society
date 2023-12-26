@@ -79,7 +79,7 @@ The last update to this file was: **December 26th, 2023**
 
 One of the first milestones of this project was to create a moodboard to help envision the overall house style of the webiite and ensure that all of the sections and elements are cohesive. The software I used to create the moodboard for this website is [Mila Note](https://milanote.com/ "Mila Note").
 Below, is the moodboard:
-<!-- ![Moodboard PLACEHOLDER](img/moodboard.JPG) -->
+![Moodboard](assets/img/moodboard.png)
 
 ## Fonts
 
