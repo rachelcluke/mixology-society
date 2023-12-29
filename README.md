@@ -25,6 +25,7 @@ The last update to this file was: **December 26th, 2023**
   - [Moodboard](#moodboard)
   - [Fonts](#fonts)
   - [Icons](#icons)
+  - [Breakpoints](#breakpoints)
   - [Wireframes](#wireframes)
 
 # UX
@@ -89,6 +90,24 @@ In order to move away from the basic fonts available, I have used
 ## Icons
 
 I will use some icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will be used in the About Us Section and also the social media links in the footer. All icons used will be styled and in keeping with the appearance of the website.
+
+## Breakpoints
+
+As a starting point, I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
+
+| Screen Size | Class Infix | Breakpoint |
+| ----------- | ----------- | ---------- |
+| x-small     | none        | <576px     |
+| small       | sm          | => 576px   |
+| medium      | md          | => 768px   |
+| large       | lg          | => 992px   |
+| x-large     | xl          | => 1200px  |
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ## Wireframes
 
