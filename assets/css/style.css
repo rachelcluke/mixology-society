@@ -1,6 +1,3 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;400&family=Inter:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap');
-
 /* Universal */
 * {
     padding: 0;
@@ -33,7 +30,7 @@
 
 .primary-header li a {
     color: var(--charcoal);
-    font: 400 20px Inter;
+    font: 400 20px 'Inter';
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -68,7 +65,7 @@ nav a:hover {
 
 .university-name {
     display: flex;
-    font: 500 10px Newsreader;
+    font: 500 10px 'Newsreader';
     color: var(--huntergreen);
     letter-spacing: -0.08px;
     align-items: center;
@@ -123,7 +120,7 @@ nav a:hover {
     }
 
     .primary-header li a {
-        font: 400 10px Inter;
+        font: 400 10px 'Inter';
         padding: 10px;
         color: var(--offwhite);
     }
@@ -168,7 +165,7 @@ nav a:hover {
 .mixsoc-home-title {
     box-sizing: border-box;
     max-width: 235px;
-    font: 400 50px Glory;
+    font: 400 50px 'Glory';
     color: var(--mustard);
     display: flex;
     flex: 0 0 auto;
@@ -178,7 +175,7 @@ nav a:hover {
 
 .mixsoc-home-subheading {
     color: var(--offwhite);
-    font: 200 20px Glory;
+    font: 200 20px 'Glory';
     font-style: extralight;
     letter-spacing: -0.3px;
 }
