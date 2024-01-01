@@ -6,7 +6,7 @@ Welcome,
 
 This is the Mixology Society website, which provides information about the University of Luketon's Mixology Society.
 
-The following are high-key details of this project:
+The following are high-level details of this project:
 
 - The main technologies used are HTML5, CSS3 and Bootstrap version 5 (framework).
 - The project consists of three separate web page sections (Home, About Us & Sign Up).
