@@ -1,19 +1,26 @@
-<!-- ![Logo PLACEHOLDER](wireframes/logo.JPG) -->
-
 # Mixology Society
 
-# Goal for this Project
+# Project Overview
 
 Welcome,
 
 This is the Mixology Society website, which provides information about the University of Luketon's Mixology Society.
 
-The last update to this file was: **December 26th, 2023**
+The following are high-key details of this project:
+
+- The main technologies used are HTML5, CSS3 and Bootstrap version 5 (framework).
+- The project consists of three separate web page sections (Home, About Us & Sign Up).
+- A top navigation bar is established for information architecture.
+- Git & GitHub are used for version control.
+- Any external code sources used in the project are clearly identified in the code itself and in this README.md file
+- The final version has been deployed via GitHub Pages.
+
+The last update to this file was: **January 1st, 2024**
 
 # Table of Contents
 
 - [Mixology Society](#mixology-society)
-- [Goal for this Project](#goal-for-this-project)
+- [Project Overview](#project-overview)
 - [Table of Contents](#table-of-contents)
 - [UX](#ux)
   - [User Goals](#user-goals)
