@@ -13,22 +13,37 @@
     --huntergreen: #426B1F;
 }
 
-.primary-header {
-    background-color: var(--white);
+#top-navbar {
+    position: fixed;
+    z-index: 2000;
 }
 
-.primary-nav-menu li {
-    padding-left: 1rem;
+.primary-nav-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--charcoal);
+    opacity: 0.9;
+}
+
+.primary-nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+    height: 100vh;
+    width: 100%;
+    top: 3.5rem;
 }
 
 .primary-nav-menu li a {
-    display: flex;
-    flex-direction: row;
-    color: var(--charcoal);
+    color: var(--offwhite);
     font-family: 'Inter';
     font-weight: 200;
-    font-size: 3vw;
+    font-size: 2vw;
     transition: 0.40s ease-in-out;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 nav a:link {
@@ -39,19 +54,28 @@ nav a:hover {
     font-weight: 400;
 }
 
-.open-menu,
-.close-menu {
-    position: absolute;
-    color: var(--offwhite);
-    cursor: pointer;
-    font-size: 1.6rem;
-    display: none;
+.menu-toggle {
+    margin-right: 1.5rem;
+    font-size: 2rem;
+    color: var(--charcoal);
 }
 
-.primary-nav-menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.menu-toggle:hover {
+    color: var(--huntergreen);
+    text-decoration: none;
+}
+
+.primary-nav-menu:target,
+.primary-nav-menu[aria-expanded="true"] {
+    display: block;
+    left: 0;
+}
+
+.primary-nav-menu:target ul,
+.primary-nav-menu[aria-expanded="true"] ul {
+    position: relative;
+    top: 4.6rem;
+    z-index: 1000;
 }
 
 .university-name p {
@@ -59,18 +83,6 @@ nav a:hover {
     font-weight: 400;
     font-size: 3vw;
     color: var(--huntergreen);
-}
-
-.open-menu,
-.close-menu {
-    position: absolute;
-    color: var(--offwhite);
-    cursor: pointer;
-    display: none;
-}
-
-#check {
-    display: none;
 }
 
 /* Section 1: Home */
@@ -142,4 +154,51 @@ nav a:hover {
 .about-us-img-class {
     height: 50vh;
     width: auto;
+}
+
+/* Media Query*/
+
+@media (min-width: 992px) {
+
+    /* Navigation Bar */
+
+    .nav-bar {
+        flex-direction: row;
+    }
+
+    .menu-toggle,
+    .primary-nav-menu .menu-close {
+        display: none;
+    }
+
+    .primary-nav-menu {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: auto;
+        top: auto;
+        height: 2.5rem;
+        display: block;
+        width: 100%;
+        background-color: var(--offwhite);
+    }
+
+    .primary-nav-menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; 
+        list-style: none;
+        height: auto;
+        width: 100%;
+    }
+
+    .primary-nav-menu li a {
+        color: var(--charcoal);
+        font-size: 1.5rem;
+    }
+
+    .university-name {
+        font-size: 3.5rem;
+    }
+
 }

@@ -28,59 +28,35 @@
   </head>
 
   <body>
-    <header class="primary-header">
-      <div class="nav container-fluid">
-        <div class="row">
-          <div class="university-name col-sm-3">
-            <p>MixSoc</p>
-          </div>
-
-          <div class="primary-nav-menu">
-            <nav>
-              <input type="checkbox" id="check" />
-              <ul id="links " class="primary-nav-menu">
-                <li>
-                  <a
-                    href="#home"
-                    aria-label="Link to the home screen (opens in the same tab)"
-                    ><span> Home </span></a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#about-us"
-                    aria-label="Link to the about section (opens in the same tab)"
-                    ><span> About Us </span></a
-                  >
-                </li>
-                <li class="col-2">
-                  <a
-                    href="#sign-up"
-                    aria-label="Link to the sign up section (opens in the same tab)"
-                    ><span> Sign Up </span></a
-                  >
-                </li>
-                <label for a="check" class="close-menu"
-                  ><i class="fas fa-times"></i
-                ></label>
-              </ul>
-              <label for a="check" class="open-menu"
-                ><i class="fas fa-bars"></i
-              ></label>
-            </nav>
-          </div>
+    <nav id="top-navbar" class="primary-nav-menu">
+        <div class="nav-bar">
+            <a href="#main-menu" class="menu-toggle" aria-label="Open main menu">
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </a>
+            
+            <div id="main-menu" class="main-menu">
+    
+                <ul id="links">
+                    <div class="university-name">
+                        <p>MixSoc</p>
+                    </div>
+                    <br>
+                    <li><a href="#home" aria-label="Link to the home screen (opens in the same tab)">Home</a></li>
+                    <li><a href="#about-us" aria-label="Link to the about us section (opens in the same tab)">About Us</a></li>
+                    <li><a href="#sign-up" aria-label="Link to the sign up section (opens in the same tab)">Sign Up</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </header>
+    </nav>
 
     <section id="home" class="mixsoc-home">
-      <p class="mixsoc-home-title">
-        MIXOLOGY
-        <br />
-        SOCIETY
-      </p>
-
-      <p class="mixsoc-home-subheading">2023/24</p>
+        <br>
+        <p class="mixsoc-home-title">
+            MIXOLOGY
+            <br />
+            SOCIETY
+        </p>
+        <p class="mixsoc-home-subheading">2023/24</p>
     </section>
 
     <section id="about-us" class="about-us-class container-fluid">
@@ -126,6 +102,8 @@
             </div>
         </div>
     </section>
+
+
 
   </body>
 </html>
