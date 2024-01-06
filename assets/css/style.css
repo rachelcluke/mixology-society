@@ -202,3 +202,36 @@ nav a:hover {
     }
 
 }
+
+/* Section 3: Sign Up*/
+
+#sign-up {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    margin-top: 0;
+    background-color: var(--offwhite);
+    background-image: url(../img/bartend.jpeg);
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    opacity: 0.85;
+}
+
+.center-form {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    max-width: 50%;
+    background-color: var(--offwhite);
+    opacity: 0.9;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--offwhite);
+    background-color: var(--charcoal);
+    border-radius: 10px;
+}
