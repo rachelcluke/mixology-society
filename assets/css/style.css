@@ -93,7 +93,7 @@ nav a:hover {
     background-color: var(--offwhite);
     background-image: url(../img/bkg-drink.jpg);
     background-size: cover;
-    min-height: 50vh;
+    min-height: 70vh;
     opacity: 0.95;
 }
 
@@ -160,6 +160,12 @@ nav a:hover {
 
 @media (min-width: 992px) {
 
+    /* Home Section */
+
+    .mixsoc-home {
+        min-height: 100vh;
+    }
+
     /* Navigation Bar */
 
     .nav-bar {
@@ -206,32 +212,43 @@ nav a:hover {
 /* Section 3: Sign Up*/
 
 #sign-up {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    margin-top: 0;
     background-color: var(--offwhite);
     background-image: url(../img/bartend.jpeg);
     background-size: cover;
-    padding-bottom: 100px;
-    padding-top: 50px;
+    min-height: 50vh;
     opacity: 0.85;
 }
 
+.form-subheading {
+    color: var(--offwhite);
+    font-family: 'Glory';
+    font-weight: 200;
+    font-size: 5vw;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
 .center-form {
-    margin: 0 auto;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 30vw;
     background-color: var(--offwhite);
     opacity: 0.9;
+    margin-left: 50vw;
+    font-family: 'Glory';
+    font-weight: 200;
+    font-size: 1.2rem;
 }
 
 button[type="submit"] {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     color: var(--offwhite);
     background-color: var(--charcoal);
-    border-radius: 10px;
+    border-radius: 5px;
+    font-family: 'Glory';
+    font-weight: 200;
+    font-size: 1rem;
+    padding: 0.4rem;
 }
