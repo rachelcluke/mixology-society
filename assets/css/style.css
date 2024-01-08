@@ -11,6 +11,9 @@
     --white: #ffffff;
     --mustard: #D3BF50;
     --huntergreen: #426B1F;
+    --bluegrey: #e2e2e244;
+    --chestnut: #6d574b;
+    --lightgrey: #e2e2e2ac;
 }
 
 #top-navbar {
@@ -251,4 +254,62 @@ button[type="submit"] {
     font-weight: 200;
     font-size: 1rem;
     padding: 0.4rem;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C2D32;
+    min-height: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer h5 {
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Glory';
+    color: var(--lightgrey);
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    margin-top: 1.3rem;
+}
+
+.footer i p {
+    color: var(--bluegrey);
+    font-weight: 200;
+    font-size: 0.9rem;
+    font-family: 'Glory';
+    transition: all 0.3s ease-in-out;
+}
+
+.footer i:hover {
+    color: var(--chestnut);
+}
+
+.contact-us p {
+    color: var(--bluegrey);
+    margin-left: 1.3rem;
+}
+
+.download p {
+    color: var(--bluegrey);
+    margin-left: 1.3rem;
+}
+
+.download i {
+    color: var(--bluegrey);
+    margin-right: 1.3rem;
+}
+
+.social i {
+    color: var(--bluegrey);
+    margin-left: 1.3rem;
+}
+
+.social ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
