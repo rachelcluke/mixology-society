@@ -161,59 +161,6 @@ nav a:hover {
     width: auto;
 }
 
-/* Media Query*/
-
-@media (min-width: 992px) {
-
-    /* Home Section */
-
-    .mixsoc-home {
-        min-height: 100vh;
-    }
-
-    /* Navigation Bar */
-
-    .nav-bar {
-        flex-direction: row;
-    }
-
-    .menu-toggle,
-    .primary-nav-menu .menu-close {
-        display: none;
-    }
-
-    .primary-nav-menu {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        left: auto;
-        top: auto;
-        height: 2.5rem;
-        display: block;
-        width: 100%;
-        background-color: var(--offwhite);
-    }
-
-    .primary-nav-menu ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around; 
-        list-style: none;
-        height: auto;
-        width: 100%;
-    }
-
-    .primary-nav-menu li a {
-        color: var(--charcoal);
-        font-size: 1.5rem;
-    }
-
-    .university-name {
-        font-size: 3.5rem;
-    }
-
-}
-
 /* Section 3: Sign Up*/
 
 #sign-up {
@@ -314,4 +261,57 @@ button[type="submit"] {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+}
+
+/* Media Query*/
+
+@media (min-width: 992px) {
+
+    /* Home Section */
+
+    .mixsoc-home {
+        min-height: 100vh;
+    }
+
+    /* Navigation Bar */
+
+    .nav-bar {
+        flex-direction: row;
+    }
+
+    .menu-toggle,
+    .primary-nav-menu .menu-close {
+        display: none;
+    }
+
+    .primary-nav-menu {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: auto;
+        top: auto;
+        height: 2.5rem;
+        display: block;
+        width: 100%;
+        background-color: var(--offwhite);
+    }
+
+    .primary-nav-menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        height: auto;
+        width: 100%;
+    }
+
+    .primary-nav-menu li a {
+        color: var(--charcoal);
+        font-size: 1.5rem;
+    }
+
+    .university-name {
+        font-size: 3.5rem;
+    }
+
 }
