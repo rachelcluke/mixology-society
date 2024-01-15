@@ -96,7 +96,7 @@ nav a:hover {
     box-sizing: border-box;
     margin-top: 0;
     background-color: var(--offwhite);
-    background-image: url(../img/bkg-drink.jpg);
+    background-image: url("../img/bkg-drink.jpg");
     background-size: cover;
     min-height: 70vh;
     opacity: 0.95;
@@ -165,7 +165,7 @@ nav a:hover {
 
 #sign-up {
     background-color: var(--offwhite);
-    background-image: url(../img/bartend.jpeg);
+    background-image: url("../img/bartend.jpeg");
     background-size: cover;
     min-height: 50vh;
     opacity: 0.85;
