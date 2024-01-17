@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
 /* Header */
 :root {
     --offwhite: #eeebdc;
