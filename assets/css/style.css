@@ -41,6 +41,13 @@
     top: 3.5rem;
 }
 
+.university-name {
+    font-family: 'Newsreader';
+    font-weight: 400;
+    font-size: 1vw;
+    color: var(--huntergreen);
+}
+
 .primary-nav-menu li a {
     color: var(--offwhite);
     font-family: 'Inter';
@@ -81,13 +88,6 @@ nav a:hover {
     position: relative;
     top: 4.6rem;
     z-index: 1000;
-}
-
-.university-name p {
-    font-family: 'Newsreader';
-    font-weight: 400;
-    font-size: 3vw;
-    color: var(--huntergreen);
 }
 
 /* Section 1: Home */
@@ -261,6 +261,15 @@ button[type="submit"] {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+}
+
+/* response.html */
+.response-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 
 /* Media Query*/
