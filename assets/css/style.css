@@ -9,9 +9,13 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 2rem;
+    font-size: 62.5%;
 }
 
-/* Header */
+body {
+    font-size: 1.6rem;
+}
+
 :root {
     --offwhite: #eeebdc;
     --charcoal: #181818;
@@ -23,6 +27,7 @@ html {
     --lightgrey: #e2e2e2ac;
 }
 
+/* Header */
 #top-navbar {
     position: fixed;
     z-index: 2000;
@@ -49,7 +54,7 @@ html {
 .university-name {
     font-family: 'Newsreader';
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 1rem;
     color: var(--huntergreen);
 }
 
@@ -57,7 +62,7 @@ html {
     color: var(--offwhite);
     font-family: 'Inter';
     font-weight: 200;
-    font-size: 2vw;
+    font-size: 1rem;
     transition: 0.40s ease-in-out;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -115,7 +120,7 @@ nav a:hover {
     box-sizing: border-box;
     font-family: 'Glory';
     font-weight: 400;
-    font-size: 10vw;
+    font-size: 15rem;
     color: var(--mustard);
 }
 
@@ -123,7 +128,7 @@ nav a:hover {
     color: var(--offwhite);
     font-family: 'Glory';
     font-weight: 200;
-    font-size: 5vw;
+    font-size: 7rem;
 }
 
 /* Section 2: About Us */
@@ -137,21 +142,21 @@ nav a:hover {
     color: var(--charcoal);
     font-family: 'Glory';
     font-weight: 300;
-    font-size: 5vw;
+    font-size: 5rem;
 }
 
 #about-us h3 {
     color: var(--charcoal);
     font-family: 'Glory';
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 #about-us p {
     color: var(--charcoal);
     font-family: 'Glory';
     font-weight: 200;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .about-us-body {
@@ -180,7 +185,7 @@ nav a:hover {
     color: var(--offwhite);
     font-family: 'Glory';
     font-weight: 200;
-    font-size: 5vw;
+    font-size: 5rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
 }
@@ -195,7 +200,7 @@ nav a:hover {
     margin-left: 50vw;
     font-family: 'Glory';
     font-weight: 200;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 button[type="submit"] {
@@ -206,7 +211,7 @@ button[type="submit"] {
     border-radius: 5px;
     font-family: 'Glory';
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 0.4rem;
 }
 
@@ -222,7 +227,7 @@ button[type="submit"] {
 
 .footer h5 {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Glory';
     color: var(--lightgrey);
     margin-left: 1.3rem;
@@ -233,7 +238,7 @@ button[type="submit"] {
 .footer i p {
     color: var(--bluegrey);
     font-weight: 200;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: 'Glory';
     transition: all 0.3s ease-in-out;
 }
