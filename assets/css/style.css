@@ -62,7 +62,7 @@ body {
     color: var(--offwhite);
     font-family: 'Inter';
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 2rem;
     transition: 0.40s ease-in-out;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -247,12 +247,7 @@ button[type="submit"] {
     color: var(--chestnut);
 }
 
-.contact-us p {
-    color: var(--bluegrey);
-    margin-left: 1.3rem;
-}
-
-.download p {
+.contact-us p, .download p, .social i {
     color: var(--bluegrey);
     margin-left: 1.3rem;
 }
@@ -260,11 +255,6 @@ button[type="submit"] {
 .download i {
     color: var(--bluegrey);
     margin-right: 1.3rem;
-}
-
-.social i {
-    color: var(--bluegrey);
-    margin-left: 1.3rem;
 }
 
 .social ul {
