@@ -40,6 +40,7 @@ The last update to this file was: **January 22nd, 2024**
   - [IDE](#ide)
   - [Libraries \& Framework](#libraries--framework)
   - [Tools](#tools)
+- [Deployment](#deployment)
 
 # UX
 
@@ -188,6 +189,23 @@ The wireframes are below:
 - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
   
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Deployment
+
+This project was deployed using GitHub Pages through the following steps:
+
+1. Navigating to the repository on github and click 'Settings'.
+2. Selecting 'Pages' on the side navigation.
+3. Selecting the 'None' dropdown, and then clicking 'main'.
+4. Clicking on the 'Save' button.
+5. Now the website is live on [MixSoc Live Website](https://rachelcluke.github.io/mixology-society/ "MixSoc Website")
+6. If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 \
 &nbsp;
