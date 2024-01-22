@@ -35,6 +35,11 @@ The last update to this file was: **January 22nd, 2024**
   - [Colours](#colours)
   - [Breakpoints](#breakpoints)
   - [Wireframes](#wireframes)
+- [Technologies used](#technologies-used)
+  - [Languages](#languages)
+  - [IDE](#ide)
+  - [Libraries \& Framework](#libraries--framework)
+  - [Tools](#tools)
 
 # UX
 
@@ -141,6 +146,48 @@ The wireframes are below:
 [Sign Up Section - Desktop Wireframe](assets/wireframes/3-signup-desktop-wireframe.png "signup desktop wireframe")
 
 [Sign Up Section - Phone Wireframe](assets/wireframes/3-signup-phone-wireframe.png "signup phone wireframe")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Technologies used
+
+## Languages
+
+- [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+  
+- [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
+## IDE
+
+- [Codeanywhere](https://codeanywhere.com/ "Codeanywhere")
+
+## Libraries & Framework
+
+- [Google Fonts](https://fonts.google.com/ "Google Fonts")
+  
+- [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+  
+- [Bootstrap](https://getbootstrap.com "Bootstrap")
+
+## Tools
+
+- [Mila Note](https://milanote.com/ "Mila Note")
+  
+- [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq")
+  
+- [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+  
+- [Google Fonts](https://fonts.google.com/ "Google Fonts")
+  
+- [Colourmind](https://colormind.io/ "colourmind")
+
+- [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+  
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 
 \
 &nbsp;
