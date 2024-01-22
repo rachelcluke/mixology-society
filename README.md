@@ -41,6 +41,7 @@ The last update to this file was: **January 22nd, 2024**
   - [Libraries \& Framework](#libraries--framework)
   - [Tools](#tools)
 - [Deployment](#deployment)
+- [Credits](#credits)
 
 # UX
 
@@ -179,12 +180,14 @@ The wireframes are below:
 - [Mila Note](https://milanote.com/ "Mila Note")
   
 - [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq")
+
+- [CI Full Template]("https://github.com/Code-Institute-Org/ci-full-template" "CI Full Template")
   
 - [Font Awesome library](https://fontawesome.com/ "Font Awesome")
   
 - [Google Fonts](https://fonts.google.com/ "Google Fonts")
-  
-- [Colourmind](https://colormind.io/ "colourmind")
+
+- [Coolers](https://coolors.co/ "coolers")
 
 - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
   
@@ -206,6 +209,36 @@ This project was deployed using GitHub Pages through the following steps:
 4. Clicking on the 'Save' button.
 5. Now the website is live on [MixSoc Live Website](https://rachelcluke.github.io/mixology-society/ "MixSoc Website")
 6. If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Credits
+
+For mentoring, code advising and project reviewing:
+
+- [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+
+\
+&nbsp;
+
+For technical support and guidance:
+
+- Tutors at Code Institute
+  
+- [Bootstrap Flex Doc](https://getbootstrap.com/docs/4.0/utilities/flex/ "Bootstrap Flex Doc")
+
+\
+&nbsp;
+
+For content inspiration:
+
+- [Cardiff Cocktail Society](https://www.cardiffstudents.com/activities/society/cocktailsociety/ "Cardiff Cocktail Society")
+  
+- [Aber Cocktail Society](https://www.abersu.co.uk/society/cocktailsociety/ "Aber Cocktail Society")
 
 \
 &nbsp;
