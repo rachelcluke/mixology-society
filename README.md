@@ -35,6 +35,10 @@ The last update to this file was: **January 22nd, 2024**
   - [Colours](#colours)
   - [Breakpoints](#breakpoints)
   - [Wireframes](#wireframes)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+    - [Navigation Bar](#navigation-bar)
+    - [Landing Page](#landing-page)
 - [Technologies used](#technologies-used)
   - [Languages](#languages)
   - [IDE](#ide)
@@ -148,6 +152,54 @@ The wireframes are below:
 [Sign Up Section - Desktop Wireframe](assets/wireframes/3-signup-desktop-wireframe.png "signup desktop wireframe")
 
 [Sign Up Section - Phone Wireframe](assets/wireframes/3-signup-phone-wireframe.png "signup phone wireframe")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Features
+
+## Existing Features
+
+### Navigation Bar
+
+The navigation bar is responsive for various screen sizes. It includes links to fast-track to the respective sections within the one-page site.
+
+- Desktop (>=992px)
+\
+&nbsp;
+    ![Navigation bar](assets/features/desktop-navbar.png)
+  - Spanning the entire width of the device, the navigation bar presents all the links (Home, About Us, Sign Up) in an organized manner; this provides a straight-forward and convenient user experience.
+
+  - In order for the user to identify which of the links their cursor is hovering over, the respective link text appears bold.
+
+    ![Navigation bar link on hover](assets/features/desktop-nav-hover.png)
+    \
+    &nbsp;
+  - For the convenience of switching sections, the desktop navigation bar is permanently fixed at the top of the screen, so even if the user scrolls down, they will have access to it.
+
+    ![Navigation bar fixed at top](assets/features/nav-bar-scrolled.png)
+    \
+    &nbsp;
+
+- Small devices (<992px)
+\
+&nbsp;
+  - As the navigation bar would be too cramped as a row at the top of 'smaller' devices, it is set to be a column on the right side of screen.
+
+    \
+    &nbsp;
+    ![Nav bar on small devices](assets/features/small-navbar.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Landing Page
 
 \
 &nbsp;
