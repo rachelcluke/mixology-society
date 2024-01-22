@@ -15,7 +15,7 @@ The following are high-level details of this project:
 - Any external code sources used in the project are clearly identified in the code itself and in this README.md file
 - The final version has been deployed via GitHub Pages.
 
-The last update to this file was: **January 1st, 2024**
+The last update to this file was: **January 22nd, 2024**
 
 # Table of Contents
 
@@ -32,6 +32,7 @@ The last update to this file was: **January 1st, 2024**
   - [Moodboard](#moodboard)
   - [Fonts](#fonts)
   - [Icons](#icons)
+  - [Colours](#colours)
   - [Breakpoints](#breakpoints)
   - [Wireframes](#wireframes)
 
@@ -98,6 +99,13 @@ In order to move away from the basic fonts available, I have used
 
 I will use some icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will be used in the About Us Section and also the social media links in the footer. All icons used will be styled and in keeping with the appearance of the website.
 
+## Colours
+
+The colour scheme of the website is inspired by the moodboard (previously depicted). I have used [Coolers](https://coolors.co/ "coolers") to retrieve the desired colour codes and generate the colour palette.
+
+Below, is the color palette:
+![Colour Palette](assets/img/colour_palette.png)
+
 ## Breakpoints
 
 As a starting point, I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
@@ -122,9 +130,17 @@ I have used [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq") to develop m
 
 The wireframes are below:
 
-<!-- [Desktop Wireframe](wireframes/desktop.png "Desktop wireframe") -->
+[Home Section - Desktop Wireframe](assets/wireframes/1-home-desktop-wireframe.png "home desktop wireframe")
 
-<!-- [Phone Wireframe](wireframes/phone.png "Phone wireframe") -->
+[Home Section - Phone Wireframe](assets/wireframes/1-home-phone-wireframe.png "home phone wireframe")
+
+[About Section - Desktop Wireframe](assets/wireframes/2-about-desktop-wireframe.png "about desktop wireframe")
+
+[About Section - Phone Wireframe](assets/wireframes/2-about-phone-wireframe.png "about phone wireframe")
+
+[Sign Up Section - Desktop Wireframe](assets/wireframes/3-signup-desktop-wireframe.png "signup desktop wireframe")
+
+[Sign Up Section - Phone Wireframe](assets/wireframes/3-signup-phone-wireframe.png "signup phone wireframe")
 
 \
 &nbsp;
