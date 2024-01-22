@@ -38,7 +38,7 @@ The last update to this file was: **January 22nd, 2024**
 - [Features](#features)
   - [Existing Features](#existing-features)
     - [Navigation Bar](#navigation-bar)
-    - [Landing Page](#landing-page)
+    - [Home Section](#home-section)
 - [Technologies used](#technologies-used)
   - [Languages](#languages)
   - [IDE](#ide)
@@ -199,7 +199,15 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 \
 &nbsp;
 
-### Landing Page
+### Home Section
+
+- Background Image
+  - The image immediately indicates what the club is about and fits the colour scheme.
+  - The text informs the user on what the club is and what the website is about. The colours suit the colour scheme, the font style is appropriate for the club aesthetic. The text size and style is also easy to read and is eye-catching.
+    \
+    &nbsp;
+
+    ![Home Section](assets/features/home-section.png)
 
 \
 &nbsp;
