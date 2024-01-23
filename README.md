@@ -41,6 +41,8 @@ The last update to this file was: **January 22nd, 2024**
     - [Home Section](#home-section)
     - [About Us Section](#about-us-section)
     - [Sign Up Section](#sign-up-section)
+    - [Footer](#footer)
+  - [Future actions - Features to be Implemented](#future-actions---features-to-be-implemented)
 - [Technologies used](#technologies-used)
   - [Languages](#languages)
   - [IDE](#ide)
@@ -268,7 +270,8 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     &nbsp;
 
 - On submission of the form, the page is redirected to a submission confirmation; this notifies the user that their details have been received.
-- Also, the user is informed that they can either wait for 5 seconds for the page to refresh back to the home section or click on the button to do so.
+- Also, the user is informed that they can either wait for 5 seconds for the page to refresh back to the home section or click on the 'button' to do so.
+- The 'button', which is actually a link changes color when hovered for improved user experience.
     \
     &nbsp;
 
@@ -277,6 +280,44 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 - Additional Notes
   
   - The method of the form is a GET action of response.html instead of a POST to CI form dump to avoid third-party personal data storage
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Footer
+
+- The footer contains the social media links and contact information. These social links all open in a new tab and have an attribute of rel nonopener to act as a disclaimer.
+    &nbsp;
+
+    ![Footer Section](assets/features/footer.png)
+    \
+    &nbsp;
+
+- There is also a hover effect over the links, again to improve user experience.
+    \
+    &nbsp;
+
+    ![Footer Hover Feature](assets/features/footer-hover.png)
+    \
+    &nbsp;
+
+- An extra feature the footer has, is that users can download a free recipe in a pdf form. The download icon link also has a hover effect and the downloadable pdf opens up in a new tab. As a note, the pdf is for demo purposes.
+    \
+    &nbsp;
+
+    ![Downloadable Recipe PDF](assets/features/footer-hover.png)
+    \
+    &nbsp;
+
+## Future actions - Features to be Implemented
+
+- For smaller devices, include hamburger icon that can open and close column navigation menu.
+- Make the logo of society a link to return back to the home section.
+- Add a photo gallery section would be added.
+- Make the email address in the footer a link. It would open up the user's email browser in a pop up, with the society's email copied over.
 
 \
 &nbsp;

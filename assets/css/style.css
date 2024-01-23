@@ -257,6 +257,14 @@ button:hover {
     text-align: center;
 }
 
+.response-page i {
+    color: var(--chestnut);
+}
+
+.response-page i:hover{
+    color: var(--mustard);
+}
+
 /* Media Query*/
 
 @media (min-width: 992px) {
