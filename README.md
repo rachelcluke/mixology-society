@@ -39,6 +39,8 @@ The last update to this file was: **January 22nd, 2024**
   - [Existing Features](#existing-features)
     - [Navigation Bar](#navigation-bar)
     - [Home Section](#home-section)
+    - [About Us Section](#about-us-section)
+    - [Sign Up Section](#sign-up-section)
 - [Technologies used](#technologies-used)
   - [Languages](#languages)
   - [IDE](#ide)
@@ -105,6 +107,12 @@ Below, is the moodboard:
 
 In order to move away from the basic fonts available, I have used
 [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website. For the main text I have chosen [Glory](https://fonts.google.com/specimen/Glory "Glory font") as I feel it is has a sharp, simple and easy to read look. To make the navigation bar stand out form the text, I decided to use [Inter](https://fonts.google.com/specimen/Inter?query=inter "Inter font"). This font is complimentary to the Glory font, and will help be distinctive as navigation links in the header.
+
+Additional Notes:
+
+- I have intentionally imported the fonts in the css file and not index.html as it saved some space in the html file and as this is a static website, the slightly longer loading time is not critical.
+
+- There is a 'double reset' in the css file. It simplifies calculate rem unit as I no longer need to think in scale factor of 1.6 but 10 instead.
 
 ## Icons
 
@@ -208,6 +216,67 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     &nbsp;
 
     ![Home Section](assets/features/home-section.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### About Us Section
+
+- This section outlines a brief introduction to the user on what the society club is about, the club's values and benefits.
+- The photo of a few society members at an event is inviting and insightful of the society meet ups.
+    \
+    &nbsp;
+
+    [About Us Section](assets/features/about-section.png)
+    \
+    &nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Sign Up Section
+
+- The Sign Up section enables the user to promptly send a membership request to the society, instead of reaching out to them by email.
+    \
+    &nbsp;
+
+    ![Sign Up Section](assets/features/signup.png)
+    \
+    &nbsp;
+
+- Both text fields are required fields and will not alow the user to submit until they are completed.
+- There is a validation for the email field to ensure it is in a valid format.
+    \
+    &nbsp;
+
+    ![Email Validation](assets/features/signup-email.png)
+    \
+    &nbsp;
+
+  - Colour change is the hover effect on the submit button to confirm feature use that it is an active button.
+    \
+    &nbsp;
+
+    ![Email Validation](assets/features/signup-hover.png)
+    \
+    &nbsp;
+
+- On submission of the form, the page is redirected to a submission confirmation; this notifies the user that their details have been received.
+- Also, the user is informed that they can either wait for 5 seconds for the page to refresh back to the home section or click on the button to do so.
+    \
+    &nbsp;
+
+    ![Sign Up Confirmation](assets/features/signup-confirm.png)
+
+- Additional Notes
+  
+  - The method of the form is a GET action of response.html instead of a POST to CI form dump to avoid third-party personal data storage
 
 \
 &nbsp;
