@@ -131,7 +131,7 @@ I will use some icons for my website from the [Font Awesome library](https://fon
 The colour scheme of the website is inspired by the moodboard (previously depicted). I have used [Coolers](https://coolors.co/ "coolers") to retrieve the desired colour codes and generate the colour palette.
 
 Below, is the color palette:
-![Colour Palette](assets/img/colour_palette.png)
+![Colour Palette](assets/img/colour-palette.png)
 
 ## Breakpoints
 
@@ -157,17 +157,17 @@ I have used [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq") to develop m
 
 The wireframes are below:
 
-[Home Section - Desktop Wireframe](assets/wireframes/1-home-desktop-wireframe.png "home desktop wireframe")
+[Home Section - Desktop Wireframe](wireframes/home-desktop-wireframe.png "home desktop wireframe")
 
-[Home Section - Phone Wireframe](assets/wireframes/1-home-phone-wireframe.png "home phone wireframe")
+[Home Section - Phone Wireframe](wireframes/home-phone-wireframe.png "home phone wireframe")
 
-[About Section - Desktop Wireframe](assets/wireframes/2-about-desktop-wireframe.png "about desktop wireframe")
+[About Section - Desktop Wireframe](wireframes/about-desktop-wireframe.png "about desktop wireframe")
 
-[About Section - Phone Wireframe](assets/wireframes/2-about-phone-wireframe.png "about phone wireframe")
+[About Section - Phone Wireframe](wireframes/about-phone-wireframe.png "about phone wireframe")
 
-[Sign Up Section - Desktop Wireframe](assets/wireframes/3-signup-desktop-wireframe.png "signup desktop wireframe")
+[Sign Up Section - Desktop Wireframe](wireframes/signup-desktop-wireframe.png "signup desktop wireframe")
 
-[Sign Up Section - Phone Wireframe](assets/wireframes/3-signup-phone-wireframe.png "signup phone wireframe")
+[Sign Up Section - Phone Wireframe](wireframes/signup-phone-wireframe.png "signup phone wireframe")
 
 \
 &nbsp;
@@ -207,7 +207,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 
     \
     &nbsp;
-    ![Nav bar on small devices](assets/features/small_navbar.png)
+    ![Nav bar on small devices](assets/features/small-navbar.png)
 
 \
 &nbsp;
@@ -426,9 +426,9 @@ These are the issues that emerged and how I resolved them:
 
 - When I was validating HTML code, I had two errors and one warning showing. The key modification I did were cleaning the logo extra closing tag, which resolved the logo being another link to the home/ landing section, which it was not doing before. There were no errors or warnings to show for the other html file. There was also no errors shown for the css file in this project.
 The results of my validation for HTML and CSS are below:
-  - HTML (index.html) validator [results part 1](assets/wireframes/html_val_1.png "W3C HTML part I")  ,  [part 2](assets/wireframes/html_val_2.png "W3C HTML part II")  ,  [part 3](assets/wireframes/html_val_3.png "W3C HTML part III")
-  - HTML (response.html) validator [results](assets/wireframes/response_html_val.png "W3C HTML")
-  - CSS validator [results](assets/wireframes/css_val.png "W3C CSS")
+  - HTML (index.html) validator [results](wireframes/html-validation.png "W3C HTML")
+  - HTML (response.html) validator [results](wireframes/thankyou-html-validation.png "W3C HTML")
+  - CSS validator [results](wireframes/css-valation.png "W3C CSS")
 \
 &nbsp;
 
