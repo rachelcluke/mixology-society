@@ -8,14 +8,14 @@ This is the Mixology Society website, which provides information about the Unive
 
 The following are high-level details of this project:
 
-- The main technologies used are HTML5, CSS3 and Bootstrap version 5 (framework).
+- The main technologies used are HTML and CSS.
 - The project consists of three separate web page sections (Home, About Us & Sign Up).
 - A top navigation bar is established for information architecture.
 - Git & GitHub are used for version control.
 - Any external code sources used in the project are clearly identified in the code itself and in this README.md file
 - The final version has been deployed via GitHub Pages.
 
-The last update to this file was: **January 22nd, 2024**
+The last update to this file was: **January 24th, 2024**
 
 # Table of Contents
 
@@ -348,8 +348,6 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 - [Google Fonts](https://fonts.google.com/ "Google Fonts")
   
 - [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-  
-- [Bootstrap](https://getbootstrap.com "Bootstrap")
 
 ## Tools
 
@@ -357,9 +355,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
   
 - [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq")
 
-- [CI Full Template]("https://github.com/Code-Institute-Org/ci-full-template" "CI Full Template")
-  
-- [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+- [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template "CI Full Template")
   
 - [Google Fonts](https://fonts.google.com/ "Google Fonts")
 
@@ -450,10 +446,10 @@ The project deliverable is for a module that only covers html and css, hence the
 
 This project was deployed using GitHub Pages through the following steps:
 
-1. Navigating to the repository on github and click 'Settings'.
-2. Selecting 'Pages' on the side navigation.
-3. Selecting the 'None' dropdown, and then clicking 'main'.
-4. Clicking on the 'Save' button.
+1. Navigating to the repository on github and click **Settings**.
+2. Selecting **Pages** on the side navigation.
+3. Selecting the **None** dropdown, and then clicking 'main'.
+4. Clicking on the **Save** button.
 5. Now the website is live on [MixSoc Live Website](https://rachelcluke.github.io/mixology-society/ "MixSoc Website")
 6. If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
