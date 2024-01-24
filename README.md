@@ -107,7 +107,7 @@ The last update to this file was: **January 24th, 2024**
 
 One of the first milestones of this project was to create a moodboard to help envision the overall house style of the webiite and ensure that all of the sections and elements are cohesive. The software I used to create the moodboard for this website is [Mila Note](https://milanote.com/ "Mila Note").
 Below, is the moodboard:
-![Moodboard](assets/img/moodboard.png)
+![Moodboard](docs/moodboard.png)
 
 ## Fonts
 
@@ -131,7 +131,7 @@ I will use some icons for my website from the [Font Awesome library](https://fon
 The colour scheme of the website is inspired by the moodboard (previously depicted). I have used [Coolers](https://coolors.co/ "coolers") to retrieve the desired colour codes and generate the colour palette.
 
 Below, is the color palette:
-![Colour Palette](assets/img/colour-palette.png)
+![Colour Palette](docs/colour-palette.png)
 
 ## Breakpoints
 
@@ -186,17 +186,17 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 - Desktop (>=992px)
 \
 &nbsp;
-    ![Navigation bar](assets/features/desktop-navbar.png)
+    ![Navigation bar](docs/desktop-navbar.png)
   - Spanning the entire width of the device, the navigation bar presents all the links (Home, About Us, Sign Up) in an organized manner; this provides a straight-forward and convenient user experience.
 
   - In order for the user to identify which of the links their cursor is hovering over, the respective link text appears bold.
 
-    ![Navigation bar link on hover](assets/features/desktop-nav-hover.png)
+    ![Navigation bar link on hover](docs/desktop-nav-hover.png)
     \
     &nbsp;
   - For the convenience of switching sections, the desktop navigation bar is permanently fixed at the top of the screen, so even if the user scrolls down, they will have access to it.
 
-    ![Navigation bar fixed at top](assets/features/desktop-nav-scrolled.png)
+    ![Navigation bar fixed at top](docs/desktop-nav-scrolled.png)
     \
     &nbsp;
 
@@ -207,7 +207,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 
     \
     &nbsp;
-    ![Nav bar on small devices](assets/features/small-navbar.png)
+    ![Nav bar on small devices](docs/small-navbar.png)
 
 \
 &nbsp;
@@ -223,7 +223,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Home Section](assets/features/home-section.png)
+    ![Home Section](docs/home-section.png)
 
 \
 &nbsp;
@@ -238,7 +238,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    [About Us Section](assets/features/about-section.png)
+    [About Us Section](docs/about-section.png)
     \
     &nbsp;
 
@@ -254,7 +254,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Sign Up Section](assets/features/signup.png)
+    ![Sign Up Section](docs/signup.png)
     \
     &nbsp;
 
@@ -263,7 +263,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Email Validation](assets/features/signup-email.png)
+    ![Email Validation](docs/signup-email.png)
     \
     &nbsp;
 
@@ -271,7 +271,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Email Validation](assets/features/signup-hover.png)
+    ![Email Validation](docs/signup-hover.png)
     \
     &nbsp;
 
@@ -281,7 +281,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Sign Up Confirmation](assets/features/signup-confirm.png)
+    ![Sign Up Confirmation](docs/signup-confirm.png)
 
 - Additional Notes
   
@@ -298,7 +298,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 - The footer contains the social media links and contact information. These social links all open in a new tab and have an attribute of rel nonopener to act as a disclaimer.
     &nbsp;
 
-    ![Footer Section](assets/features/footer.png)
+    ![Footer Section](docs/footer.png)
     \
     &nbsp;
 
@@ -306,7 +306,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Footer Hover Feature](assets/features/footer-hover.png)
+    ![Footer Hover Feature](docs/footer-hover.png)
     \
     &nbsp;
 
@@ -314,7 +314,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Downloadable Recipe PDF](assets/features/footer-hover.png)
+    ![Downloadable Recipe PDF](docs/footer-hover.png)
     \
     &nbsp;
 
@@ -380,29 +380,29 @@ The first phase of testing consisted of personally navigating through the websit
 &nbsp;
 
 1. As a user, I want to know that the society club is well established.
-    ![Home Section](assets/features/home-section.png)
+    ![Home Section](docs/home-section.png)
 \
 &nbsp;
     The aesthetic of the website typically depicts an establishment's officiality. I belive that the cohesive font and colour scheme, along with credible social links all cater towards this story.
 \
 &nbsp;
 2. As a user, I want to be able to easily contact the club.
-    ![Sign Up Section](assets/features/signup.png)
+    ![Sign Up Section](docs/signup.png)
 \
 &nbsp;
     There is a sign up form that enables the user to immediately request membership to the society. Also, the website informs the user differents ways to contact the club, discussed in the next user story.
 \
 &nbsp;
 3. As a user, I want to be able to make contact with the club via different methods, i.e. social media.
-    ![Footer Social Links](assets/features/footer.png)
+    ![Footer Social Links](docs/footer.png)
 \
 &nbsp;
 4. As a user, I want to be able to easily navigate through the website.
-    ![Navigation Bar](assets/features/desktop-navbar.png)
+    ![Navigation Bar](docs/desktop-navbar.png)
 \
 &nbsp;
 5. As a user, I want to know what events are taking place.
-    ![About Us Section](assets/features/about-section.png)
+    ![About Us Section](docs/about-section.png)
 \
 &nbsp;
 
