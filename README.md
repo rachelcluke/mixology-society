@@ -48,6 +48,10 @@ The last update to this file was: **January 22nd, 2024**
   - [IDE](#ide)
   - [Libraries \& Framework](#libraries--framework)
   - [Tools](#tools)
+- [Testing](#testing)
+  - [Testing User Stories](#testing-user-stories)
+  - [Debugging](#debugging)
+  - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
 
@@ -190,7 +194,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     &nbsp;
   - For the convenience of switching sections, the desktop navigation bar is permanently fixed at the top of the screen, so even if the user scrolls down, they will have access to it.
 
-    ![Navigation bar fixed at top](assets/features/nav-bar-scrolled.png)
+    ![Navigation bar fixed at top](assets/features/desktop-nav-scrolled.png)
     \
     &nbsp;
 
@@ -315,8 +319,8 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 ## Future actions - Features to be Implemented
 
 - For smaller devices, include hamburger icon that can open and close column navigation menu.
-- Make the logo of society a link to return back to the home section.
-- Add a photo gallery section would be added.
+- Add a photo gallery section would be added to make the website more interactive and inviting.
+- Add a section of the committee members with photos of each member, their names and position.
 - Make the email address in the footer a link. It would open up the user's email browser in a pop up, with the society's email copied over.
 
 \
@@ -369,6 +373,67 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 \
 &nbsp;
 
+# Testing
+
+## Testing User Stories
+
+The first phase of testing consisted of personally navigating through the website to ensure the stories have been set. Below, I have listed the user stories set at the beginning of the project, along with screenshots evincing how they have each been met.
+\
+&nbsp;
+
+1. As a user, I want to know that the society club is well established.
+    ![Home Section](assets/features/home-section.png)
+\
+&nbsp;
+    The aesthetic of the website typically depicts an establishment's officiality. I belive that the cohesive font and colour scheme, along with credible social links all cater towards this story.
+\
+&nbsp;
+2. As a user, I want to be able to easily contact the club.
+    ![Sign Up Section](assets/features/signup.png)
+\
+&nbsp;
+    There is a sign up form that enables the user to immediately request membership to the society. Also, the website informs the user differents ways to contact the club, discussed in the next user story.
+\
+&nbsp;
+3. As a user, I want to be able to make contact with the club via different methods, i.e. social media.
+    ![Footer Social Links](assets/features/footer.png)
+\
+&nbsp;
+4. As a user, I want to be able to easily navigate through the website.
+    ![Navigation Bar](assets/features/desktop-navbar.png)
+\
+&nbsp;
+5. As a user, I want to know what events are taking place.
+    ![About Us Section](assets/features/about-section.png)
+\
+&nbsp;
+
+## Debugging
+
+These are the issues that emerged and how I resolved them:
+
+- xxx
+
+- When I was validating HTML code, I had two errors and one warning showing. The key modification I did were cleaning the logo extra closing tag, which resolved the logo being another link to the home/ landing section, which it was not doing before. There were no errors or warnings to show for the other html file. There was also no errors shown for the css file in this project.
+The results of my validation for HTML and CSS are below:
+  - HTML (index.html) validator [results](assets/wireframes/html_val_1.png "W3C HTML part I")
+  - HTML (index.html) validator [results](assets/wireframes/html_val_2.png "W3C HTML part II")
+  - HTML (index.html) validator [results](assets/wireframes/html_val_3.png "W3C HTML part III")
+  - HTML (response.html) validator [results](assets/wireframes/response_html_val.png "W3C HTML")
+  - CSS validator [results](assets/wireframes/css_val.png "W3C CSS")
+\
+&nbsp;
+
+## Unfixed Bugs
+
+This module only covers html and css, hence the current state of the hamburger menu feature for smaller devices is limited. Ideally a tap of the icon should open or close the menu for smaller devices. It currently does not do this. Based on research, it appears that the way to get around this is JavaScript, which will only be introduced in the later modules of this course.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 # Deployment
 
 This project was deployed using GitHub Pages through the following steps:
@@ -392,17 +457,11 @@ For mentoring, code advising and project reviewing:
 
 - [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 
-\
-&nbsp;
-
 For technical support and guidance:
 
 - Tutors at Code Institute
   
 - [Bootstrap Flex Doc](https://getbootstrap.com/docs/4.0/utilities/flex/ "Bootstrap Flex Doc")
-
-\
-&nbsp;
 
 For content inspiration:
 
@@ -410,12 +469,10 @@ For content inspiration:
   
 - [Aber Cocktail Society](https://www.abersu.co.uk/society/cocktailsociety/ "Aber Cocktail Society")
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-
 ---
 
 Thank you - from Rachel Luke!
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)

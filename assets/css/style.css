@@ -58,13 +58,6 @@ body {
     top: 3.5rem;
 }
 
-.university-name {
-    font-family: 'Newsreader';
-    font-weight: 400;
-    font-size: 2rem;
-    color: var(--huntergreen);
-}
-
 .primary-nav-menu li a {
     color: var(--offwhite);
     font-family: 'Inter';
@@ -72,6 +65,13 @@ body {
     transition: 0.40s ease-in-out;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+#links .university-name a {
+    font-family: 'Newsreader';
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--huntergreen);
 }
 
 nav a:link {
@@ -312,8 +312,9 @@ button:hover {
         color: var(--charcoal);
     }
 
-    .university-name {
+    #links .university-name a {
         font-size: 3rem;
+        color: var(--huntergreen);
     }
 
 }
