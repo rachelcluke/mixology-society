@@ -205,7 +205,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 
     \
     &nbsp;
-    ![Nav bar on small devices](assets/features/small-navbar.png)
+    ![Nav bar on small devices](assets/features/small_navbar.png)
 
 \
 &nbsp;
@@ -416,9 +416,7 @@ These are the issues that emerged and how I resolved them:
 
 - When I was validating HTML code, I had two errors and one warning showing. The key modification I did were cleaning the logo extra closing tag, which resolved the logo being another link to the home/ landing section, which it was not doing before. There were no errors or warnings to show for the other html file. There was also no errors shown for the css file in this project.
 The results of my validation for HTML and CSS are below:
-  - HTML (index.html) validator [results](assets/wireframes/html_val_1.png "W3C HTML part I")
-  - HTML (index.html) validator [results](assets/wireframes/html_val_2.png "W3C HTML part II")
-  - HTML (index.html) validator [results](assets/wireframes/html_val_3.png "W3C HTML part III")
+  - HTML (index.html) validator [results part 1](assets/wireframes/html_val_1.png "W3C HTML part I")  ,  [part 2](assets/wireframes/html_val_2.png "W3C HTML part II")  ,  [part 3](assets/wireframes/html_val_3.png "W3C HTML part III")
   - HTML (response.html) validator [results](assets/wireframes/response_html_val.png "W3C HTML")
   - CSS validator [results](assets/wireframes/css_val.png "W3C CSS")
 \
