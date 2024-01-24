@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;400&family=Inter:wght@200;400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap');
 
+:root {
+    --offwhite: #eeebdc;
+    --charcoal: #181818;
+    --white: #ffffff;
+    --mustard: #D3BF50;
+    --huntergreen: #3B4633;
+    --bluegrey: #e2e2e244;
+    --chestnut: #6d574b;
+    --lightgrey: #e2e2e2ac;
+    --font-glory: 'Glory', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-news: 'Newsreader', sans-serif;
+}
+
 /* Universal */
 * {
     padding: 0;
@@ -18,20 +32,6 @@ body {
     font-weight: 200;
     color: var(--charcoal);
     font-size: 2rem;
-}
-
-:root {
-    --offwhite: #eeebdc;
-    --charcoal: #181818;
-    --white: #ffffff;
-    --mustard: #D3BF50;
-    --huntergreen: #3B4633;
-    --bluegrey: #e2e2e244;
-    --chestnut: #6d574b;
-    --lightgrey: #e2e2e2ac;
-    --font-glory: 'Glory', sans-serif;
-    --font-inter: 'Inter', sans-serif;
-    --font-news: 'Newsreader', sans-serif;
 }
 
 /* Header */
@@ -195,10 +195,10 @@ button[type="submit"] {
     margin-bottom: 1rem;
     color: var(--offwhite);
     background-color: var(--charcoal);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     font-size: 1rem;
     font-weight: 100;
-    padding: 0.4rem;
+    padding: 4px;
 }
 
 button:hover {
@@ -269,13 +269,9 @@ button:hover {
 
 @media (min-width: 992px) {
 
-    /* Home Section */
-
     .mixsoc-home {
         min-height: 100vh;
     }
-
-    /* Navigation Bar */
 
     .nav-bar {
         flex-direction: row;
