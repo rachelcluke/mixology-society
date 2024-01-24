@@ -117,6 +117,8 @@ In order to move away from the basic fonts available, I have used
 Additional Notes:
 
 - I have intentionally imported the fonts in the css file and not index.html as it saved some space in the html file and as this is a static website, the slightly longer loading time is not critical.
+  
+- Backup fonts (sans-serif) have been put in place, in case the custom fonts used are not available.
 
 - There is a 'double reset' in the css file. It simplifies calculate rem unit as I no longer need to think in scale factor of 1.6 but 10 instead.
 
@@ -412,7 +414,19 @@ The first phase of testing consisted of personally navigating through the websit
 
 These are the issues that emerged and how I resolved them:
 
-- xxx
+- When I included the logo with the other social links in the ul, I wanted the logo to have a different formatting (i.e., font and colour) to the other a elements. To avoid adding the styling to the html file, I added the id to the selector to override the other navigation links formatting.
+  
+- Previously, I created media queries with min and max ranges, which resulted in very jagged results for the breakpoints. To resolve this, the css file by default is mobile-first and there is a media query for larger devices with only a min-width constraint, to make the responsive transition more smooth.
+  
+- I was having difficulty with setting font sizes so to counteract this, I have set a 'double reset' in the css file. It simplifies calculate rem unit as I no longer need to think in scale factor of 1.6 but 10 instead.
+  
+- The loading of the website was initially quite glitchy, even when scrolling, so to resolve this, I added a smooth scroll-behaviour attribute to the html selector within the css file.
+  
+- When the navigation links were clicked on, the section headings were slightly cut off at the top, so to improve the user experience, a scroll padding top attribute was added to the html selector within the css file.
+  
+- The background images were making the text/ other features less obvious so to make the website easier to read, I adjust the opacity of the background images to make the text pop more.
+
+- The css file has been cleaned up to avoid repetition of code and keep it concise.
 
 - When I was validating HTML code, I had two errors and one warning showing. The key modification I did were cleaning the logo extra closing tag, which resolved the logo being another link to the home/ landing section, which it was not doing before. There were no errors or warnings to show for the other html file. There was also no errors shown for the css file in this project.
 The results of my validation for HTML and CSS are below:
@@ -424,7 +438,7 @@ The results of my validation for HTML and CSS are below:
 
 ## Unfixed Bugs
 
-This module only covers html and css, hence the current state of the hamburger menu feature for smaller devices is limited. Ideally a tap of the icon should open or close the menu for smaller devices. It currently does not do this. Based on research, it appears that the way to get around this is JavaScript, which will only be introduced in the later modules of this course.
+The project deliverable is for a module that only covers html and css, hence the current state of the hamburger menu feature for smaller devices is limited. Ideally a tap of the icon should open or close the menu for smaller devices. It currently does not do this. Based on research, it appears that the way to get around this is JavaScript, which will only be introduced in later modules.
 
 \
 &nbsp;
