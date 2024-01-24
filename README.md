@@ -285,7 +285,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 
 - Additional Notes
   
-  - The method of the form is a GET action of response.html instead of a POST to CI form dump to avoid third-party personal data storage
+  - The method of the form is a GET action of thank-you.html instead of a POST to CI form dump to avoid third-party personal data storage
 
 \
 &nbsp;
@@ -421,13 +421,15 @@ These are the issues that emerged and how I resolved them:
 - When the navigation links were clicked on, the section headings were slightly cut off at the top, so to improve the user experience, a scroll padding top attribute was added to the html selector within the css file.
   
 - The background images were making the text/ other features less obvious so to make the website easier to read, I adjust the opacity of the background images to make the text pop more.
+  
+- During testing, the sign up confirmation page did not return back to the website but instead, an error showed up as it was to the codeanywhere workspace so this was resolved by ammending the URL in the thank-you.html file.
 
 - The css file has been cleaned up to avoid repetition of code and keep it concise.
 
 - When I was validating HTML code, I had two errors and one warning showing. The key modification I did were cleaning the logo extra closing tag, which resolved the logo being another link to the home/ landing section, which it was not doing before. There were no errors or warnings to show for the other html file. There was also no errors shown for the css file in this project.
 The results of my validation for HTML and CSS are below:
   - HTML (index.html) validator [results](wireframes/html-validation.png "W3C HTML")
-  - HTML (response.html) validator [results](wireframes/thankyou-html-validation.png "W3C HTML")
+  - HTML (thank-you.html) validator [results](wireframes/thankyou-html-validation.png "W3C HTML")
   - CSS validator [results](wireframes/css-valation.png "W3C CSS")
 \
 &nbsp;
