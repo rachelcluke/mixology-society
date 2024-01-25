@@ -183,31 +183,21 @@ The wireframes are below:
 
 The navigation bar is responsive for various screen sizes. It includes links to fast-track to the respective sections within the one-page site.
 
-- Desktop (>=992px)
-\
-&nbsp;
-    ![Navigation bar](docs/desktop-navbar.png)
-  - Spanning the entire width of the device, the navigation bar presents all the links (Home, About Us, Sign Up) in an organized manner; this provides a straight-forward and convenient user experience.
+![Navigation bar](docs/desktop-navbar.png)
 
-  - In order for the user to identify which of the links their cursor is hovering over, the respective link text appears bold.
+- Spanning the entire width of the device, the navigation bar presents all the links (Home, About Us, Sign Up) in an organized manner; this provides a straight-forward and convenient user experience.
+- The navigation bar for smaller devices which was initially a column that was supposed to expand and collapse has been replaced by a responsive version of the desktop's navigation bar as theres not that much content and will be able to fit in a row on a phone.
 
-    ![Navigation bar link on hover](docs/desktop-nav-hover.png)
-    \
-    &nbsp;
-  - For the convenience of switching sections, the desktop navigation bar is permanently fixed at the top of the screen, so even if the user scrolls down, they will have access to it.
+- In order for the user to identify which of the links their cursor is hovering over, the respective link text appears bold.
 
-    ![Navigation bar fixed at top](docs/desktop-nav-scrolled.png)
-    \
-    &nbsp;
+  ![Navigation bar link on hover](docs/desktop-nav-hover.png)
+  \
+  &nbsp;
+- For the convenience of switching sections, the desktop navigation bar is permanently fixed at the top of the screen, so even if the user scrolls down, they will have access to it.
 
-- Small devices (<992px)
-\
-&nbsp;
-  - As the navigation bar would be too cramped as a row at the top of 'smaller' devices, it is set to be a column on the right side of screen.
-
-    \
-    &nbsp;
-    ![Nav bar on small devices](docs/small-navbar.png)
+  ![Navigation bar fixed at top](docs/desktop-nav-scrolled.png)
+  \
+  &nbsp;
 
 \
 &nbsp;
