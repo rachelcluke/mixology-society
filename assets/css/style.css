@@ -39,37 +39,49 @@ body {
     z-index: 2000;
 }
 
+.nav-bar {
+    flex-direction: row;
+}
+
+.menu-toggle,
+.primary-nav-menu .menu-close {
+    display: none;
+}
+
 .primary-nav-menu {
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: var(--charcoal);
-    opacity: 0.9;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 2.5rem;
+    display: block;
+    width: 100%;
+    background-color: var(--offwhite);
 }
 
 .primary-nav-menu ul {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
     list-style: none;
-    height: 25vh;
+    height: auto;
     width: 100%;
-    top: 3.5rem;
 }
 
 .primary-nav-menu li a {
-    color: var(--offwhite);
     font-family: 'Inter';
-    font-size: 1.6rem;
     transition: 0.40s ease-in-out;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--charcoal);
 }
 
 #links .university-name a {
     font-family: 'Newsreader';
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--huntergreen);
 }
 
@@ -275,46 +287,6 @@ button:hover {
 
     .mixsoc-home {
         min-height: 100vh;
-    }
-
-    .nav-bar {
-        flex-direction: row;
-    }
-
-    .menu-toggle,
-    .primary-nav-menu .menu-close {
-        display: none;
-    }
-
-    .primary-nav-menu {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        left: auto;
-        top: auto;
-        height: 2.5rem;
-        display: block;
-        width: 100%;
-        background-color: var(--offwhite);
-    }
-
-    .primary-nav-menu ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style: none;
-        height: auto;
-        width: 100%;
-    }
-
-    .primary-nav-menu li a {
-        font-size: 2rem;
-        color: var(--charcoal);
-    }
-
-    #links .university-name a {
-        font-size: 3rem;
-        color: var(--huntergreen);
     }
 
 }
