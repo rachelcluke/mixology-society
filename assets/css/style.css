@@ -31,7 +31,6 @@ body {
     font-family: var(--font-glory);
     font-weight: 200;
     color: var(--charcoal);
-    font-size: 2rem;
 }
 
 /* Header */
@@ -61,7 +60,7 @@ body {
 .primary-nav-menu li a {
     color: var(--offwhite);
     font-family: 'Inter';
-    font-size: 1rem;
+    font-size: 1.6rem;
     transition: 0.40s ease-in-out;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -142,7 +141,7 @@ nav a:hover {
 }
 
 #about-us h2 {
-    font-weight: 300;
+    font-weight: 200;
     font-size: 5rem;
 }
 
@@ -175,7 +174,7 @@ nav a:hover {
 .form-subheading {
     color: var(--offwhite);
     font-size: 5rem;
-    font-weight: 300;
+    font-weight: 200;
     padding-left: 1rem;
     padding-bottom: 1rem;
 }
@@ -196,8 +195,8 @@ button[type="submit"] {
     color: var(--offwhite);
     background-color: var(--charcoal);
     border-radius: 0.5rem;
-    font-size: 1rem;
-    font-weight: 100;
+    font-size: 1.6rem;
+    font-weight: 200;
     padding: 4px;
 }
 
@@ -213,6 +212,11 @@ button:hover {
     background-color: #1C2D32;
     min-height: 1rem;
     padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.footer a {
+    font-size: 2.5rem;
 }
 
 .footer h5 {

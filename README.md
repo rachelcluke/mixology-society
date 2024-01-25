@@ -423,6 +423,8 @@ These are the issues that emerged and how I resolved them:
 - The background images were making the text/ other features less obvious so to make the website easier to read, I adjust the opacity of the background images to make the text pop more.
   
 - During testing, the sign up confirmation page did not return back to the website but instead, an error showed up as it was to the codeanywhere workspace so this was resolved by ammending the URL in the thank-you.html file.
+  
+- Footer icons were too small for larger devices like desktop, so I've targeted the footer icons and increased their size (from 1rem to 2.5 rem) to make it easier for the users to click on.
 
 - The css file has been cleaned up to avoid repetition of code and keep it concise.
 
