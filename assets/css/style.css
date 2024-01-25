@@ -57,6 +57,8 @@ body {
     height: 2.5rem;
     display: block;
     width: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
     background-color: var(--offwhite);
 }
 
@@ -138,6 +140,7 @@ nav a:hover {
     font-weight: 400;
     font-size: 15rem;
     color: var(--mustard);
+    padding-top: 1rem;
 }
 
 .mixsoc-home-subheading {
