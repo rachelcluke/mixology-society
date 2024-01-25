@@ -402,6 +402,8 @@ These are the issues that emerged and how I resolved them:
 
 - When I included the logo with the other social links in the ul, I wanted the logo to have a different formatting (i.e., font and colour) to the other a elements. To avoid adding the styling to the html file, I added the id to the selector to override the other navigation links formatting.
   
+- The top navigation bar was initially too narrow, and the section links were too close to the browser's search engine header so padding for the top and bottom have been added to improve the user's experience.
+  
 - Previously, I created media queries with min and max ranges, which resulted in very jagged results for the breakpoints. To resolve this, the css file by default is mobile-first and there is a media query for larger devices with only a min-width constraint, to make the responsive transition more smooth.
   
 - I was having difficulty with setting font sizes so to counteract this, I have set a 'double reset' in the css file. It simplifies calculate rem unit as I no longer need to think in scale factor of 1.6 but 10 instead.
