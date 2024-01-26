@@ -271,7 +271,7 @@ button:hover {
 .response-page {
     height: 100vh;
     width: 100vw;
-    background-image: url("assets/img/garnish-drink.jpg");
+    background-image: url("../img/close-up-drink.jpg");
     opacity: 95%;
     background-size: cover;
     display: flex;
@@ -285,10 +285,12 @@ button:hover {
     background-color: var(--offwhite);
     color: var(--charcoal);
     font-size: 2rem;
+    padding: 2rem;
 }
 
 .response-page i {
     color: var(--chestnut);
+    padding: 0.5rem;
 }
 
 .response-page i:hover{
