@@ -242,7 +242,6 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -315,7 +314,14 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Downloadable Recipe PDF](docs/footer-hover.png)
+    ![Footer Download Feature](docs/footer-download-hover.png)
+    \
+    &nbsp;
+
+     \
+    &nbsp;
+
+    ![Downloadable Recipe PDF](docs/drink-recipe.png)
     \
     &nbsp;
 
@@ -405,7 +411,7 @@ The first phase of testing consisted of personally navigating through the websit
 \
 &nbsp;
 5. As a user, I want to know what events are taking place.
-    ![About Us Section](docs/about-section.png)
+    ![About Us Section](docs/desktop-about.png)
 \
 &nbsp;
 
