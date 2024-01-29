@@ -336,6 +336,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 - Add a photo gallery section would be added to make the website more interactive and inviting.
 - Add a section of the committee members with photos of each member, their names and position.
 - Make the email address in the footer a link. It would open up the user's email browser in a pop up, with the society's email copied over.
+- Add animation as an additional UI feature, to indicate the website's progress to the viewer (for example, in thank-you.html there could be a loading animation).
 
 \
 &nbsp;
