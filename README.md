@@ -277,11 +277,19 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 
 - On submission of the form, the page is redirected to a submission confirmation; this notifies the user that their details have been received.
 - Also, the user is informed that they can either wait for 5 seconds for the page to refresh back to the home section or click on the 'button' to do so.
-- The 'button', which is actually a link changes color when hovered for improved user experience.
     \
     &nbsp;
 
     ![Sign Up Confirmation](docs/signup-confirm.png)
+
+    \
+    &nbsp;
+
+- The 'button', which is actually a link changes color when hovered for improved user experience.
+    \
+    &nbsp;
+
+    ![Sign Up Confirmation](docs/signup-confirm-hover.png)
 
 - Additional Notes
   
@@ -321,7 +329,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
      \
     &nbsp;
 
-    ![Downloadable Recipe PDF](docs/drink-recipe.png)
+    ![Downloadable Recipe](docs/drink-recipe.png)
     \
     &nbsp;
 
