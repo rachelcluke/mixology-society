@@ -69,7 +69,7 @@ The last update to this file was: **January 29th, 2024**
 
 ## User Stories
 
-1. As a user, I want to know that the society club is well established.
+1. As a user, I want to know that the society club is well-established.
 2. As a user, I want to be able to easily contact the club.
 3. As a user, I want to be able to make contact with the club via different methods, i.e. social media.
 4. As a user, I want to be able to easily navigate through the website.
@@ -280,7 +280,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Sign Up Confirmation](docs/signup-confirm.png)
+    ![Sign Up Confirmation](docs/signup-confirm-page.png)
 
     \
     &nbsp;
