@@ -6,7 +6,7 @@
 
 Welcome,
 
-This is the Mixology Society website, which provides information about the University of Luketon's Mixology Society (society club).
+This is the Mixology Society website, which provides information about the University of Luketon's Mixology Society (society club). It is Rachel Luke's submission for Code Institue's User Centric (static website) module.
 
 The following are high-level details of this project:
 
