@@ -6,7 +6,7 @@
 
 Welcome,
 
-This is the Mixology Society website, which provides information about the University of Luketon's Mixology Society.
+This is the Mixology Society website, which provides information about the University of Luketon's Mixology Society (society club).
 
 The following are high-level details of this project:
 
@@ -17,7 +17,7 @@ The following are high-level details of this project:
 - Any external code sources used in the project are clearly identified in the code itself and in this README.md file
 - The final version has been deployed via GitHub Pages.
 
-The last update to this file was: **January 24th, 2024**
+The last update to this file was: **January 29th, 2024**
 
 # Table of Contents
 
@@ -188,7 +188,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 ![Navigation bar](docs/desktop-navbar.png)
 
 - Spanning the entire width of the device, the navigation bar presents all the links (Home, About Us, Sign Up) in an organized manner; this provides a straight-forward and convenient user experience.
-- The navigation bar for smaller devices which was initially a column that was supposed to expand and collapse has been replaced by a responsive version of the desktop's navigation bar as theres not that much content and will be able to fit in a row on a phone.
+- The navigation bar for smaller devices, which was initially a column that was supposed to expand and collapse has been replaced by a responsive version of the desktop's navigation bar as theres not that much content and will be able to fit in a row on a phone.
 
 - In order for the user to identify which of the links their cursor is hovering over, the respective link text appears bold.
 
@@ -310,7 +310,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-- There is also a hover effect over the links, again to improve user experience.
+- There is also a hover effect over the links, again to improve user experience. The colour the button changes to, suits the website's colour scheme.
     \
     &nbsp;
 
@@ -318,7 +318,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-- An extra feature the footer has, is that users can download a free recipe in a pdf form. The download icon link also has a hover effect and the downloadable pdf opens up in a new tab. As a note, the pdf is for demo purposes.
+- An extra feature the footer has is that users can download a free recipe in a PDF form. The download icon link also has a hover effect and the downloadable PDF opens up in a new tab. Please note, the PDF is for demo purposes.
     \
     &nbsp;
 
@@ -447,7 +447,7 @@ These are the issues that emerged and how I resolved them:
   
 - The 'About Us' text was initially the same for all devices, however in testing, the experience for larger screens was subpar as the viewer would have to read to read across the entire width of the laptop/desktop. To improve this, a media query was added so that the text would appear as a flex row, making it easier for the viewer to read.
   
-- In the Sign Up section, the fmail field would break into a new line for smaller screens, so to rectify this, I changed the width of the form to 'auto'.
+- In the Sign Up section, the email field would break into a new line for smaller screens, so to rectify this, I changed the width of the form to 'auto'.
   
 - Footer icons were too small for larger devices like desktop, so I've targeted the footer icons and increased their size (from 1rem to 2.5 rem) to make it easier for the users to click on. Moreover, I've added spacing to the last child of the social links as it was touching the edge of the screen.
 
