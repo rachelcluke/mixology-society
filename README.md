@@ -230,9 +230,18 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    [About Us Section](docs/about-section.png)
+    [About Us Section](docs/desktop-about.png)
     \
     &nbsp;
+
+- The layout for smaller devices (< 992px) is for the information to appear as a column.The reason why it is transformed into a row for devices bigger than the stated constraint is because it makes it easier for the view to read the information across bigger screen's widths.
+    \
+    &nbsp;
+
+    [About Us Section](docs/small-about.png)
+    \
+    &nbsp;
+
 
 \
 &nbsp;
