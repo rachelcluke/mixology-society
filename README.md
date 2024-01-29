@@ -20,6 +20,7 @@ The following are high-level details of this project:
 The last update to this file was: **January 24th, 2024**
 
 # Table of Contents
+
 - [Mixology Society](#mixology-society)
 - [Project Overview](#project-overview)
 - [Table of Contents](#table-of-contents)
@@ -351,6 +352,8 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 - [Google Fonts](https://fonts.google.com/ "Google Fonts")
 
 - [Coolers](https://coolors.co/ "coolers")
+  
+- [Am I Responsive](https://ui.dev/amiresponsive "am i responsive")
 
 - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
   
