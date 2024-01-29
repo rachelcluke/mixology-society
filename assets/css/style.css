@@ -152,7 +152,9 @@ nav a:hover {
 
 #about-us {
     background-color: var(--offwhite);
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 #about-us h2 {
@@ -164,11 +166,18 @@ nav a:hover {
     font-weight: 400;
 }
 
+.about-us-intro {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .about-us-body {
     display: flex;
     flex-direction: column;
     justify-content: end;
     text-align: justify;
+    gap: 1rem;
+    padding-right: 3rem;
 }
 
 .about-us-img-class {
@@ -184,6 +193,8 @@ nav a:hover {
     background-size: cover;
     min-height: 50vh;
     opacity: 0.85;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
 }
 
 .form-subheading {
@@ -202,6 +213,12 @@ nav a:hover {
     background-color: var(--offwhite);
     opacity: 0.9;
     margin-left: 50vw;
+    padding: 1rem;
+}
+
+.form-name {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 button[type="submit"] {
@@ -307,6 +324,17 @@ button:hover {
 
     .mixsoc-home {
         min-height: 100vh;
+    }
+
+    .about-us-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 3rem;
+    }
+
+    .about-us-perks {
+        margin-right: 2rem;
     }
 
 }
