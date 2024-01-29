@@ -414,12 +414,20 @@ The first phase of testing consisted of personally navigating through the websit
     ![Footer Social Links](docs/footer.png)
 \
 &nbsp;
+    I have added three various social media links in the footer for the viewer to be able to easily navigate to the society's other social media accounts.
+\
+&nbsp;
 4. As a user, I want to be able to easily navigate through the website.
     ![Navigation Bar](docs/desktop-navbar.png)
 \
 &nbsp;
+    The navigation bar has a clear layout and formatting for the viewer to easily access different sections of the website. The header is fixed at the top for immediate access to the viewer.
+&nbsp;
 5. As a user, I want to know what events are taking place.
     ![About Us Section](docs/desktop-about.png)
+\
+&nbsp;
+    The website has a clearly outlined section titled 'About Us', which delineates on the experiences (i.e., activities) the society has to offer, perks and more.
 \
 &nbsp;
 
