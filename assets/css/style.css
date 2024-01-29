@@ -244,7 +244,7 @@ button:hover {
     justify-content: space-between;
     background-color: #1C2D32;
     min-height: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     font-size: 2rem;
 }
 
@@ -283,6 +283,10 @@ button:hover {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+}
+
+.social-links:last-child {
+    padding-right: 1.5rem;
 }
 
 /* response.html */
