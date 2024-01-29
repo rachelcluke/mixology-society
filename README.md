@@ -326,9 +326,6 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-     \
-    &nbsp;
-
     ![Downloadable Recipe](docs/drink-recipe.png)
     \
     &nbsp;
@@ -372,8 +369,6 @@ The navigation bar is responsive for various screen sizes. It includes links to 
 
 - [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template "CI Full Template")
   
-- [Google Fonts](https://fonts.google.com/ "Google Fonts")
-
 - [Coolers](https://coolors.co/ "coolers")
   
 - [Am I Responsive](https://ui.dev/amiresponsive "am i responsive")
@@ -422,6 +417,7 @@ The first phase of testing consisted of personally navigating through the websit
 \
 &nbsp;
     The navigation bar has a clear layout and formatting for the viewer to easily access different sections of the website. The header is fixed at the top for immediate access to the viewer.
+\
 &nbsp;
 5. As a user, I want to know what events are taking place.
     ![About Us Section](docs/desktop-about.png)
