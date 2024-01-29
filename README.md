@@ -1,5 +1,7 @@
 # Mixology Society
 
+![Am I responsive - MixSoc](docs/responsive-mixsoc.png)
+
 # Project Overview
 
 Welcome,
@@ -18,7 +20,6 @@ The following are high-level details of this project:
 The last update to this file was: **January 24th, 2024**
 
 # Table of Contents
-
 - [Mixology Society](#mixology-society)
 - [Project Overview](#project-overview)
 - [Table of Contents](#table-of-contents)
@@ -402,6 +403,8 @@ These are the issues that emerged and how I resolved them:
 
 - When I included the logo with the other social links in the ul, I wanted the logo to have a different formatting (i.e., font and colour) to the other a elements. To avoid adding the styling to the html file, I added the id to the selector to override the other navigation links formatting.
   
+- By cleaning up the index.html file, particularly the logo extra closing tag, this resolved the logo being another link to the home/ landing section, which it was not doing before.
+  
 - The top navigation bar was initially too narrow, and the section links were too close to the browser's search engine header so padding for the top and bottom have been added to improve the user's experience.
   
 - Previously, I created media queries with min and max ranges, which resulted in very jagged results for the breakpoints. To resolve this, the css file by default is mobile-first and there is a media query for larger devices with only a min-width constraint, to make the responsive transition more smooth.
@@ -416,15 +419,19 @@ These are the issues that emerged and how I resolved them:
   
 - During testing, the sign up confirmation page did not return back to the website but instead, an error showed up as it was to the codeanywhere workspace so this was resolved by ammending the URL in the thank-you.html file.
   
-- Footer icons were too small for larger devices like desktop, so I've targeted the footer icons and increased their size (from 1rem to 2.5 rem) to make it easier for the users to click on.
+- The 'About Us' text was initially the same for all devices, however in testing, the experience for larger screens was subpar as the viewer would have to read to read across the entire width of the laptop/desktop. To improve this, a media query was added so that the text would appear as a flex row, making it easier for the viewer to read.
+  
+- In the Sign Up section, the fmail field would break into a new line for smaller screens, so to rectify this, I changed the width of the form to 'auto'.
+  
+- Footer icons were too small for larger devices like desktop, so I've targeted the footer icons and increased their size (from 1rem to 2.5 rem) to make it easier for the users to click on. Moreover, I've added spacing to the last child of the social links as it was touching the edge of the screen.
 
 - The css file has been cleaned up to avoid repetition of code and keep it concise.
 
-- When I was validating HTML code, I had two errors and one warning showing. The key modification I did were cleaning the logo extra closing tag, which resolved the logo being another link to the home/ landing section, which it was not doing before. There were no errors or warnings to show for the other html file. There was also no errors shown for the css file in this project.
+- There were no errors in both html files nor the css file in this project.
 The results of my validation for HTML and CSS are below:
-  - HTML (index.html) validator [results](wireframes/html-validation.png "W3C HTML")
-  - HTML (thank-you.html) validator [results](wireframes/thankyou-html-validation.png "W3C HTML")
-  - CSS validator [results](wireframes/css-valation.png "W3C CSS")
+  - HTML (index.html) validator [results](docs/index-html-validation.png "W3C HTML")
+  - HTML (thank-you.html) validator [results](docs/thankyou-html-validation.png "W3C HTML")
+  - CSS validator [results](docs/css-valation.png "W3C CSS")
 \
 &nbsp;
 
