@@ -461,7 +461,7 @@ These are the issues that emerged and how I resolved them:
 The results of my validation for HTML and CSS are below:
   - HTML (index.html) validator [results](docs/index-html-validation.png "W3C HTML")
   - HTML (thank-you.html) validator [results](docs/thankyou-html-validation.png "W3C HTML")
-  - CSS validator [results](docs/css-valation.png "W3C CSS")
+  - CSS (style.css) validator [results](docs/css-validation.png "W3C CSS")
 \
 &nbsp;
 
@@ -500,7 +500,7 @@ For mentoring, code advising and project reviewing:
 
 For technical support and guidance:
 
-- Tutors at Code Institute
+- [Tutors at Code Institute](https://codeinstitute.net/blog/meet-our-support-teams/ "Code Institute Support")
   
 - [Bootstrap Flex Doc](https://getbootstrap.com/docs/4.0/utilities/flex/ "Bootstrap Flex Doc")
 
