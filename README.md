@@ -230,7 +230,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    [About Us Section](docs/desktop-about.png)
+    ![About Us Section](docs/desktop-about.png)
     \
     &nbsp;
 
@@ -238,7 +238,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    [About Us Section](docs/small-about.png)
+    ![About Us Section](docs/small-about.png)
     \
     &nbsp;
 
@@ -264,7 +264,7 @@ The navigation bar is responsive for various screen sizes. It includes links to 
     \
     &nbsp;
 
-    ![Email Validation](docs/signup-email.png)
+    ![Email Validation](docs/signup-email-validation.png)
     \
     &nbsp;
 
