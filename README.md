@@ -515,9 +515,9 @@ For social media reference:
 
 - [The Cocktail Society Facebook](https://www.facebook.com/thecocktailsocietyuk "The Cocktail Society Facbook")
 
--[Cocktail Society Instagram](https://www.instagram.com/aboutdrinksandbars/?hl=en "Cocktail Society Instagram")
+- [Cocktail Society Instagram](https://www.instagram.com/aboutdrinksandbars/?hl=en "Cocktail Society Instagram")
 
--[The Cocktail Society Pinterest](https://www.pinterest.co.uk/thecocktailsocietyuk/ "The Cocktail Society Pinterest")
+- [The Cocktail Society Pinterest](https://www.pinterest.co.uk/thecocktailsocietyuk/ "The Cocktail Society Pinterest")
 
 ---
 
